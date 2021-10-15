@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+.container {
+  width: 100½;
+  height: 100vh;
+  background-color: rgb(140, 191, 211);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 250px;
+  height: 175px;
+  font-size: 80px;
+  background-color: rgb(77, 75, 75);
+  color: azure;
+  margin: 0 25px;
+  border-radius: 100px;
+  box-shadow: -1px 0px 7px 4px #fff;
+ 
+}
+.counter {
+  width: 250px;
+  height: 175px;
+  font-size: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(155, 129, 180);
+  flex-direction: column;
+  border-radius: 35px;
+  border: 1px solid #fff;
+}
+.counter button{
+  width: 75px;
+  height: 55px;
+  font-size: 16px;
+  padding: 8px 16px;
+}
